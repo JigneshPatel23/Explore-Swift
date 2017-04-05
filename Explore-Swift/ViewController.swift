@@ -7,6 +7,8 @@
 //
 
 import UIKit
+import Alamofire
+import SwiftyJSON
 
 class ViewController: UIViewController , UITableViewDataSource, UITableViewDelegate{
 
@@ -26,6 +28,18 @@ class ViewController: UIViewController , UITableViewDataSource, UITableViewDeleg
         getData()
         // reload table view
         tableView.reloadData()
+        
+        Alamofire.request("https://httpbin.org/get").responseJSON { response in
+            print(response.request)
+            print(response.response)
+            print(response.result)
+            print(response.data)
+            
+            if let value = response.result.value{
+                let json = JSON(value)
+                print("Agent = \(json["headers"]["User-Agent"].stringValue)")
+            }
+        }
     }
 
     override func didReceiveMemoryWarning() {
