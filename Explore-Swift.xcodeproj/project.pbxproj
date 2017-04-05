@@ -14,6 +14,7 @@
 		332C36A91E9496A100EE62EB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 332C36A81E9496A100EE62EB /* Assets.xcassets */; };
 		332C36AC1E9496A100EE62EB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 332C36AA1E9496A100EE62EB /* LaunchScreen.storyboard */; };
 		332C36B71E9496A100EE62EB /* Explore_SwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 332C36B61E9496A100EE62EB /* Explore_SwiftTests.swift */; };
+		332C36C21E94B09C00EE62EB /* AddTaskViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 332C36C11E94B09C00EE62EB /* AddTaskViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +39,7 @@
 		332C36B21E9496A100EE62EB /* Explore-SwiftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Explore-SwiftTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		332C36B61E9496A100EE62EB /* Explore_SwiftTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Explore_SwiftTests.swift; sourceTree = "<group>"; };
 		332C36B81E9496A100EE62EB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		332C36C11E94B09C00EE62EB /* AddTaskViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddTaskViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +88,7 @@
 				332C36AA1E9496A100EE62EB /* LaunchScreen.storyboard */,
 				332C36AD1E9496A100EE62EB /* Info.plist */,
 				332C36A51E9496A100EE62EB /* Explore_Swift.xcdatamodeld */,
+				332C36C11E94B09C00EE62EB /* AddTaskViewController.swift */,
 			);
 			path = "Explore-Swift";
 			sourceTree = "<group>";
@@ -203,6 +206,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				332C36A71E9496A100EE62EB /* Explore_Swift.xcdatamodeld in Sources */,
+				332C36C21E94B09C00EE62EB /* AddTaskViewController.swift in Sources */,
 				332C36A11E9496A100EE62EB /* ViewController.swift in Sources */,
 				332C369F1E9496A100EE62EB /* AppDelegate.swift in Sources */,
 			);
